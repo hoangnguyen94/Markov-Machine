@@ -20,7 +20,7 @@ function generateText ()
 
 function makeText ( path )
 {
-    fs.readFile( path, "utf8", function ( err, data )
+    fs.readFile( path, "utf8", function cb( err, data )
     {
         if ( err )
         {
